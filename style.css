@@ -1,0 +1,110 @@
+
+/* Base Typography & Layout */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+  color: #333;
+}
+header {
+  background: #0d47a1;
+  color: #fff;
+  padding: 1.2em 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header h1 {
+  font-size: 1.8em;
+  margin: 0;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+nav a:hover {
+  color: #ffeb3b;
+}
+main {
+  padding: 3em 2em;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+h2 {
+  font-size: 2.5em;
+  margin-bottom: 1em;
+  color: #0d47a1;
+  text-align: center;
+}
+
+/* Section Styling */
+.section, .service-section {
+  background: white;
+  margin: 2em 0;
+  padding: 2em;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.section p, .service-section p {
+  line-height: 1.8;
+  font-size: 1.1em;
+}
+.service-section h3 {
+  color: #0d47a1;
+  margin-bottom: 0.5em;
+}
+
+/* Contact Form Styles */
+form {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+input, textarea {
+  width: 100%;
+  padding: 0.8rem;
+  margin-top: 0.3rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+button {
+  margin-top: 1.5rem;
+  padding: 0.8rem 1.5rem;
+  background-color: #002B5B;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+button:hover {
+  background-color: #004080;
+}
+
+/* Footer */
+footer {
+  background: #0d47a1;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+  font-size: 0.9em;
+}
+footer a {
+  color: #ffeb3b;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
